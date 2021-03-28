@@ -1,0 +1,14 @@
+1. First rule of creating an abstract class is to use the keyword
+'abstract' 
+
+2. We cannot create instances/objects from abstract 
+classes. Once obvious example is Wrapper type classes Integer, Long, Byte,
+Short, Double, Float, all these 6 concrete classes extend from Number class which
+is abstract
+
+3. Abstract classes can have concrete methods as well as abstract methods:
+Concrete method: is a method with a method body
+Abstract method: is a method that does not have a method body
+
+4. Abstract methods work only in abstract classes. If you try to create an
+abstract method in a concrete class, it will work
